@@ -1,0 +1,33 @@
+#include<iostream>
+#include<string.h>
+#include<vector>
+using namespace std;
+
+int main(){
+    int start, end; 
+    cin >> start >> end;
+
+    vector<string> numNames = {"one", 
+    "two", "three", "four", "five", "six", "seven",
+    "eight", "nine" };
+    for(int i = start; i <= end; i++)
+    {
+        if(i >= 1 && i <= 9)
+        {
+            cout << numNames[i-1];
+        }
+        else if(i > 9)
+        {
+            if(i % 2 == 0)
+            {
+                cout << "even";
+            }
+            else
+            {
+                cout << "odd";
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
