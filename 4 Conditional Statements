@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cin>>n;
+    for(int i=0;i<=n;i++){
+        if(n==0){
+            cout<<"zero";
+            break;
+        }
+        else if(n==1){
+            cout<<"one";
+            break;
+        }
+        else if(n==2){
+            cout<<"two";
+            break;
+        }
+        else if(n==3){
+            cout<<"three";
+            break;
+        }
+        else if(n==4){
+            cout<<"four";
+            break;
+        }
+        else if(n==5){
+            cout<<"five";
+            break;
+        }
+        else if(n==6){
+            cout<<"six";
+            break;
+        }
+        else if(n==7){
+            cout<<"seven";
+            break;
+        }
+        else if(n==8){
+            cout<<"eight";
+            break;
+        }
+        else if(n==9){
+            cout<<"nine";
+            break;
+        }
+        else{
+            cout<<"Greater than 9";
+            break;
+        }
+    }
+    return 0;
+}
