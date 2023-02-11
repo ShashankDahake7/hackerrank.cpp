@@ -69,7 +69,7 @@ class Box
                 return(false);
         }
 
-        friend ostream& operator << (ostream &s,Box &b1)
+        friend ostream &operator << (ostream &s,Box &b1)
         {
             s << b1.l << " " << b1.b << " " << b1.h;
             return s;
